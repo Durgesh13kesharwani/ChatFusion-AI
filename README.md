@@ -29,13 +29,16 @@ ChatFusion-AI is an advanced AI assistant that combines conversational chatbot f
    cd ChatFusion-AI
 
 2. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 
-3. Set your Hugging Face API key:
+4. Set your Hugging Face API key:
+   ```bash
    import os
    os.environ['HUGGINGFACEHUB_API_TOKEN'] = "your_api_key"
 
-4. Open the Notebook:
+6. Open the Notebook:
+   ```bash
    jupyter notebook ChatFusion-AI.ipynb
 
 
